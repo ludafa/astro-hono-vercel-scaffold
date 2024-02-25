@@ -1,0 +1,17 @@
+{
+  "name": "@astro-vercel-hono-demo/app",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "build": "rimraf .vercel && tsx build.ts"
+  },
+  "dependencies": {
+    "@astro-vercel-hono-demo/client": "workspace:*",
+    "@astro-vercel-hono-demo/server": "workspace:*"
+  },
+  "devDependencies": {
+    "tsx": "^4.7.1",
+    "typescript": "^5.3.3",
+    "rimraf": "~5.0.5"
+  }
+}

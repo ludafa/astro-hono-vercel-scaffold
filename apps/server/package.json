@@ -1,0 +1,35 @@
+{
+  "name": "@astro-vercel-hono-demo/server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "NODE_ENV=development tsx watch src/index.ts",
+    "build": "rimraf .vercel && tsx scripts/build.ts"
+  },
+  "keywords": [],
+  "author": "me@dafa.lu",
+  "license": "ISC",
+  "dependencies": {
+    "@hono/node-server": "^1.8.1",
+    "hono": "^4.0.5",
+    "@hono/zod-validator": "~0.1.11",
+    "zod": "~3.22.4"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.19",
+    "esbuild": "^0.20.1",
+    "rimraf": "^5.0.5",
+    "tsx": "^4.7.1",
+    "typescript": "^5.3.3",
+    "@typescript-eslint/parser": "~7.0.2",
+    "eslint": "~8.57.0",
+    "eslint-plugin-astro": "~0.31.4",
+    "eslint-plugin-prettier": "~5.1.3",
+    "eslint-plugin-import": "~2.29.1",
+    "eslint-plugin-simple-import-sort": "~12.0.0",
+    "prettier": "~3.2.5",
+    "@typescript-eslint/eslint-plugin": "~7.0.2",
+    "eslint-config-prettier": "~9.1.0"
+  }
+}

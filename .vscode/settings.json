@@ -1,0 +1,41 @@
+{
+  "cSpell.words": [
+    "astro",
+    "astrojs",
+    "hono",
+    "honojs",
+    "rushjs",
+    "tailwindcss",
+    "tsconfigs"
+  ],
+  "editor.formatOnSave": true,
+  "[astro]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "astro-build.astro-vscode"
+  },
+  "[json]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[mdx]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.wordWrap": "bounded",
+    "editor.wordWrapColumn": 80
+  },
+  "[typescript]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+  "editor.rulers": [
+    120
+  ]
+}
