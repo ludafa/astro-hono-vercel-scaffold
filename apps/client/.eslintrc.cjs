@@ -6,6 +6,10 @@ module.exports = {
     'simple-import-sort/imports': 'warn',
     'simple-import-sort/exports': 'warn',
   },
+  env: {
+    browser: true,
+    node: true,
+  },
   ignorePatterns: ['dist', '.eslintrc.cjs', '**/node_modules/**'],
   overrides: [
     {

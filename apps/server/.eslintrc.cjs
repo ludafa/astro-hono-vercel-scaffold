@@ -1,6 +1,9 @@
 module.exports = {
   extends: ['eslint:recommended', 'plugin:@typescript-eslint/recommended', 'prettier'],
   plugins: ['import', 'simple-import-sort'],
+  env: {
+    node: true,
+  },
   rules: {
     'import/no-duplicates': 'warn',
     'simple-import-sort/imports': 'warn',
